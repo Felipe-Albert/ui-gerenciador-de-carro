@@ -4,11 +4,10 @@ import Container from "../components/Container";
 function ListCar() {
     return (
         <Container>
-            <form>
-                <h1>Pesquise seu carro</h1>
-                <div>
-                    <input type="text" placeholder="pesquise por marca ou modelo" />
-                    <select name="ano_fabricacao">
+            <form className="form_listCar">
+                <h1 className="list_title">Pesquise seu carro</h1>
+                <input className="search_bar" type="text" placeholder="pesquise por marca ou modelo" />
+                    {/* <select name="ano_fabricacao">
                         <option value="Selecione o ano" selected>ano de fabricação</option>
                         <option value="2022" >2022</option>
                         <option value="2021" >2021</option>
@@ -24,9 +23,9 @@ function ListCar() {
                         <option value="2011" >2011</option>
                         <option value="2010" >2010</option>
                         <option value="2010" >2009</option>
-                    </select>
-                    <input type="submit" value="Buscar" />
-                    
+                    </select> */}
+                <div className="div_btn_listCar">
+                    <input className="btn_listCar" type="submit" value="Buscar" />
                 </div>
             </form>
         </Container>
