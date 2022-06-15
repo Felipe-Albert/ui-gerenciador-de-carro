@@ -1,0 +1,30 @@
+.footer{
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.75);
+  text-align: center;
+  
+}
+
+.list_social{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+.list_social li{
+  margin-right: 10px;
+}
+
+.list_social svg{
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.list_social svg:hover{
+  font-size: 28px;
+  color: white;
+  margin-bottom: -3px;
+  margin-right: -3px;
+}

@@ -1,0 +1,64 @@
+.form_listCar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.list_title{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.search_bar{
+  display: flex;
+  width: 50%;
+  border: solid 1px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.btn_listCar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+  margin-left: 24.5%;
+  height: 25px;
+  width: 80px;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45), 0 1px 2px rgba(0, 0, 0, 0.24);
+  background-color: CornflowerBlue;
+  cursor: pointer;
+  font-size: 14px;
+
+  transition: filter 0.2s;
+}
+
+.btn_listCar:hover{
+  filter: brightness(0.9);
+}
+
+table {
+  width: 100%;
+  border-spacing: 0 0.5rem;
+}
+
+th {
+  color: var(--text-body);
+  font-weight: 400;
+  padding: 1rem 2rem;
+  text-align: left;
+  line-height: 1.5rem;
+}
+
+td {
+  padding: 1rem 2rem;
+  border: 0;
+  background: var(--shape);
+  color: var(--text-body);
+  border-radius: 0.25rem;
+}

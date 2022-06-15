@@ -2,8 +2,8 @@ import './App.css';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
-import ListCar from './pages/ListCar';
-import SaveCar from './pages/SaveCar';
+import ListCar from './pages/ListCar.jsx';
+import SaveCar from './pages/SaveCar.jsx';
 
 function App() {
   return (

@@ -1,3 +1,4 @@
+import './container.css';
 import React from "react";
 
 function Container(props) {
